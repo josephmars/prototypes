@@ -24,7 +24,7 @@ if 'agent' not in st.session_state:
     st.session_state.agent = None
 
 st.set_page_config(
-    page_title="Ask your data",
+    page_title="Prototypes of the Storymodelers Lab",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
