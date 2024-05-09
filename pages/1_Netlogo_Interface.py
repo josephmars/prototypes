@@ -18,6 +18,10 @@ from agents.modeler_agent import *
 #=======================================================================================================================#
 load_dotenv()
 
+# Add the directory containing the .py module to the sys.path
+import sys
+sys.path.append('./../')
+
 # Initialize session state
 
 if 'data' not in st.session_state:
