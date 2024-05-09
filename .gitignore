@@ -1,0 +1,5 @@
+.envapp/
+__pycache__/
+
+.env
+
