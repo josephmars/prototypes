@@ -1,8 +1,10 @@
 import streamlit as st
 from PyPDF2 import PdfReader
+from dotenv import load_dotenv
+
 
 #=======================================================================================================================#
-
+load_dotenv()
 
 # Set page configuration        
 st.set_page_config(
@@ -16,7 +18,7 @@ st.set_page_config(
 
 #------------------ Sidebar ------------------#
 
-openai_key = st.sidebar.text_input('OpenAI API Key')
+
 
 # Upload your .pdf file 
 st.sidebar.title('Upload your .pdf file (optional)')
