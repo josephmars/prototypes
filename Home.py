@@ -39,9 +39,16 @@ st.set_page_config(
 
 #------------------ Main Page ------------------#
 
-st.title('Netlogo + LLM')
+st.title('Prototypes of the Storymodelers Lab')
+
+body = """
+Each prototype is in a different tab:
+- **Netlogo Interface**: Create items for NetLogo interface
+- **Chat with Zoom Transcript**: Chat with the Zoom transcript of a meeting
+
+In progress:
+- ***Netlogo Code**: Write the NetLogo code*
+"""
 
 
-st.write('Go to the **Netlogo Interface** page')
-
-
+st.markdown(body)
